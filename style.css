@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f7f5f2;
+    word-wrap: 100%;
+  }
+
+
+.main_image {
+  width: 100%;;
+}
+
+.header_main {
+  width: 100%;
+  position: relative;
+  aspect-ratio: 16 / 9;
+} 
+
+.main_header {
+  position: relative;
+  width: 100%;
+
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.take_photos {
+  width: 35%;
+ aspect-ratio: 16 / 9;
+  background-color: black;
+  border-radius: 11px;
+  padding: 20px 20px;
+  font-size: 1.2 rem;
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+  position: absolute;
+  opacity: 0.5;
+  top:-100px;
+  left: 10px;
+  bottom: 30px;
+  margin: auto;
+}
+
+.take_photos:hover {opacity: 1;}
+
+.line {
+  border-bottom: 2px solid white;
+}
+
+.download_button {
+  background-color: #5c965d;
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  margin-top: 20px;
+  display: block;
+  overflow: hidden;
+}
+
+.download_button::after {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 400; 
+    content: "\f007";
+}
+
+.tour {
+  font-size: 1.2 rem;
+  text-align: center;
+  width: 20%;
+  color: white;
+  position: absolute;
+  top:0;
+  right:20px;
+  bottom: 0;
+  background-color: black;
+  padding: 10px 10px;
+  margin: auto;
+  height: 40px;
+  margin-left: 16px;
+}
+
+.tour p::after {
+  font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    content: "\3e";
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.tour:hover {opacity: 0.5;
+}
+
+.main_content{
+  width: 100%;
+  background-color: white;
+  padding: 60px 20px;
+  line-height: 1.5;
+  font-size: 1.06rem;
+}
+
+.text {
+  float: left;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+
+.simple_text1 {
+  font-size: 3.375rem;
+  font-weight: bold;
+}
+.why{
+  font-size: 3.375rem;
+  color: #4CAF50;
+}
+.large {
+  font-size: 1.55rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.application {
+  padding: 15px 20px;
+  font-size: 1.06rem;
+  border: none;
+  margin: 30px 0;
+}
+
+.available > i {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+.fa-android {
+  color: #4CAF50;
+}
+.fa-windows {
+  color: #2196f3;
+}
+
+.image_float {
+  float: right;
+  width: 50%;
+}
+
+.image_float img{
+float: right;
+}
+
+.container::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.second_content {
+  width: 100%;
+  padding: 30px 30px;
+}
+
+
+.text_second {
+  float: right;
+  width: 50%;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.image_float {
+width: 50%;
+display: inline-block;
+}
+.simple_text2 {
+  font-size: 4rem;
+}
+.why2 {
+  font-size: 3.5rem;
+  color: #f44336;
+}
+
+.container_second::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.features {
+  width: 100%;
+  background-color: #616161;
+  text-align: center;
+  padding: 64px 16px;
+}
+
+h3 {
+  font-size: 4rem;
+  color: white;
+  margin: 10px 0;
+}
+
+.features_p {
+  color: white;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.icons_main {
+width: 100%;
+padding: 30px 0;
+}
+
+.icons_main {
+  font-size: 0;
+}
+
+.icons {
+  width: 25%;
+  display: inline-block;
+}
+
+.icons i  {
+  font-size: 5rem;
+  padding: 10px 30px;
+}
+
+.icons p {
+  font-size: 1rem;
+}
+
+.fa-gem {color: white;}
+
+.icons p {
+  color: white;;
+}
+.fa-heart{
+  color:#f44336;
+}
+
+.fa-truck-fast{
+color: #ff9800;
+}
+.fa-camera{
+color:#d2be0e;
+}
+
+.fa-battery-three-quarters {
+color: #4caf50;}
+
+.fa-cloud {
+color: #2196f3;
+}
+
+.fa-globe {
+color: #ffc107;
+}
+
+.fa-database {
+color: #00bcd4;
+}
+
+.fa-user-shield{
+color: #fdf5e6;
+}
+
+.fa-umbrella {
+color: #ff9800;
+}
+
+.fa-signal {
+color: #9b9393;
+ }
+
+ .fa-hard-drive {
+ color:#e91e63;
+ }
+
+ .last {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+ }
+
+ .pricing {
+  width: 100%;
+  text-align: center;
+  
+  padding: 64px 64px;
+ }
+
+ .price {
+  font-size: 4rem;
+ }
+
+ .pricing_p {
+ margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.last ul {
+  list-style-type: none;
+}
+
+.basic, .premium {
+  width: 49%;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.padding_li {
+  padding: 10px 10px;
+}
+
+.basic li:first-child {
+  background-color: #616161;
+  padding: 32px 16px;
+  color: white;
+  font-size: 1.5rem;
+}
+.premium li:first-child {
+  background-color: #f44336;
+  padding: 32px 16px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.basic{
+  padding: 0 10px;
+  
+}
+
+.premium ul {
+  padding: 0 10px;
+}
+
+.basic:hover {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.premium:hover {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.basic li {
+  border: 1px solid #dddddd;
+  padding: 16px 20px
+}
+.premium li {
+  border: 1px solid #dddddd;
+  padding: 16px 20px;
+}
+
+.premium  li  button, .basic li button {
+  background-color: black;
+  padding: 16px 30px;
+  color: white;
+  border: none;
+}
+
+.premium  li  button:hover, .basic li button:hover  {
+  color: #000;
+  background-color: #ccc;
+}
+span {
+font-weight: bold ;
+}
+.fa-download {
+  margin-right: 10px;
+}
+
+.premium li:last-child, .basic li:last-child {
+ background-color:#c7c6c6;
+}
+
+.premium li:nth-child(6) , .basic li:nth-child(6) {
+  padding: 30px;
+  color: #818181;
+  font-size: 1.6rem;
+}
+
+.plans {
+  padding-bottom: 100px;
+}
+
+.social {
+  width: 100%;
+  background-color: #dddddd;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+
+  font-size: 1.5rem;
+}
+.social ul li {
+  display: inline-block;
+}
+
+.copyright {
+  font-size: 1.1rem;
+  padding: 10px 10px;
+}
